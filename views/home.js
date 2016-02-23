@@ -21,8 +21,6 @@ class TouchableButton extends TouchableHighlight {
 }
 
 
-
-
 class EventListing extends Component {
     constructor(props) {
         super(props)
@@ -53,8 +51,6 @@ class EventListing extends Component {
                 this.setState({
                     details: data
                 })
-
-                console.log(data)
 
                 if (data.listing_image) {
                     this._fetchListingImage(data.listing_image)
